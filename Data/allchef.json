@@ -1,0 +1,38 @@
+[  {    "chefName": "Gennaro Contaldo",    
+        "chefImage": "https://example.com/chef/gennaro-contaldo.jpg",    "yearsOfExperience": 50,    "numberOfRecipes": 300,    
+        "likes": 15000,    
+        "viewRecipesButton": "View Gennaro's Recipes"  },
+        
+        
+   {    "chefName": "Giada De Laurentiis",    
+        "chefImage": "https://example.com/chef/giada-de-laurentiis.jpg",    
+        "yearsOfExperience": 25,    
+        "numberOfRecipes": 200,    
+        "likes": 10000,    
+        "viewRecipesButton": "View Giada's Recipes"  },
+
+{    "chefName": "Antonio Carluccio",    
+     "chefImage": "https://example.com/chef/antonio-carluccio.jpg",    "yearsOfExperience": 45,    "numberOfRecipes": 250,    
+     "likes": 12500,    
+     "viewRecipesButton": "View Antonio's Recipes"  }, 
+
+{    "chefName": "Mario Batali",    
+    "chefImage": "https://example.com/chef/mario-batali.jpg",    
+    "yearsOfExperience": 30,    
+    "numberOfRecipes": 180,    
+    "likes": 9000,    
+    "viewRecipesButton": "View Mario's Recipes"  },
+
+{    "chefName": "Lidia Bastianich",    
+     "chefImage": "https://example.com/chef/lidia-bastianich.jpg",    "yearsOfExperience": 35,    "numberOfRecipes": 220,    
+     "likes": 11000,    
+     "viewRecipesButton": "View Lidia's Recipes"  }, 
+
+{    "chefName": "Massimo Bottura",    
+     "chefImage": "https://example.com/chef/massimo-bottura.jpg",    
+     "yearsOfExperience": 25,    
+     "numberOfRecipes": 150,    
+     "likes": 7500,    
+     "viewRecipesButton": "View Massimo's Recipes"  }]
+
+
