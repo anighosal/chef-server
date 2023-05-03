@@ -1,38 +1,56 @@
-[  {    "chefName": "Gennaro Contaldo",    
-        "chefImage": "https://example.com/chef/gennaro-contaldo.jpg",    "yearsOfExperience": 50,    "numberOfRecipes": 300,    
-        "likes": 15000,    
-        "viewRecipesButton": "View Gennaro's Recipes"  },
+[  {    
+        "id":"1",
+     
+        "chefName": "Gennaro Contaldo",    
+     "chefImage": "https://www.linkpicture.com/q/download_325.jpg",    
+     "yearsOfExperience": 50,    
+     "numberOfRecipes": 300,    
+     "likes": 15000,    
+     "viewRecipesButton": "View Gennaro's Recipes",
+    "description": "Gennaro Contaldo: Gennaro Contaldo is an Italian chef who has worked in some of London's top restaurants, including Passione and Zafferano. He is also known for his appearances on Jamie Oliver's cooking shows and his own TV series"  },
         
         
-   {    "chefName": "Giada De Laurentiis",    
-        "chefImage": "https://example.com/chef/giada-de-laurentiis.jpg",    
+   {      "id": "2",
+     "chefName": "Giada De Laurentiis",    
+        "chefImage": "https://www.linkpicture.com/q/Giada_De_Laurentiis_2010.jpg",    
         "yearsOfExperience": 25,    
         "numberOfRecipes": 200,    
         "likes": 10000,    
-        "viewRecipesButton": "View Giada's Recipes"  },
+        "viewRecipesButton": "View Giada's Recipes",
+        "description":"Giada De Laurentiis is an Italian-American chef, author, and television personality. She was born on August 22, 1970, in Rome, Italy, to a family deeply rooted in the Italian film industry. Her grandfather, Dino De Laurentiis, was a renowned film producer, and her father, Alex De Benedetti, was a producer and actor." },
 
-{    "chefName": "Antonio Carluccio",    
-     "chefImage": "https://example.com/chef/antonio-carluccio.jpg",    "yearsOfExperience": 45,    "numberOfRecipes": 250,    
+{     "id": "3",
+      "chefName": "Antonio Carluccio",    
+     "chefImage": "https://www.linkpicture.com/q/download_548.jpg",    "yearsOfExperience": 45,    "numberOfRecipes": 250,    
      "likes": 12500,    
-     "viewRecipesButton": "View Antonio's Recipes"  }, 
+     "viewRecipesButton": "View Antonio's Recipes",
+     "description": "Antonio Carluccio was an Italian chef, restaurateur, and television personality, known as the He was born on April 19, 1937, in Salerno, Italy, and grew up in the northwestern region of Piedmont." }, 
 
-{    "chefName": "Mario Batali",    
-    "chefImage": "https://example.com/chef/mario-batali.jpg",    
+{     "id":" 4",
+      "chefName": "Mario Batali",    
+    "chefImage": "https://www.linkpicture.com/q/download-1_166.jpg",    
     "yearsOfExperience": 30,    
     "numberOfRecipes": 180,    
     "likes": 9000,    
-    "viewRecipesButton": "View Mario's Recipes"  },
+    "viewRecipesButton": "View Mario's Recipes",
+    "description":"  Mario Batali is an American chef, restaurateur, and media personality. He was born on September 19, 1960, in Seattle, Washington, and grew up in a family with a passion for food and cooking. He later attended Le Cordon Bleu in London and graduated with a degree in culinary arts"
+   
+},
 
-{    "chefName": "Lidia Bastianich",    
-     "chefImage": "https://example.com/chef/lidia-bastianich.jpg",    "yearsOfExperience": 35,    "numberOfRecipes": 220,    
+{     "id": "5",
+     "chefName": "Lidia Bastianich",    
+     "chefImage": "https://www.linkpicture.com/q/channels4_profile_2.jpg",    "yearsOfExperience": 35,    "numberOfRecipes": 220,    
      "likes": 11000,    
-     "viewRecipesButton": "View Lidia's Recipes"  }, 
+     "viewRecipesButton": "View Lidia's Recipes",
+    "description":"Lidia Bastianich: Lidia Bastianich is an Italian-American chef and TV personality. She is the owner of several successful restaurants, including Felidia and Becco in New York City, and has authored numerous cookbooks. She is also known for her PBS series." }, 
 
-{    "chefName": "Massimo Bottura",    
-     "chefImage": "https://example.com/chef/massimo-bottura.jpg",    
+{    "id": "6",
+     "chefName": "Massimo Bottura",    
+     "chefImage": "https://www.linkpicture.com/q/massimo_0.jpeg",    
      "yearsOfExperience": 25,    
      "numberOfRecipes": 150,    
      "likes": 7500,    
-     "viewRecipesButton": "View Massimo's Recipes"  }]
+     "viewRecipesButton": "View Massimo's Recipes",
+     "description": "Massimo Bottura: Massimo Bottura is an Italian restaurateur and chef who is widely considered one of the world's greatest living chefs. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy."  }]
 
 
