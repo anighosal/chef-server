@@ -1,56 +1,387 @@
-[  {    
-        "id":"1",
-     
-        "chefName": "Gennaro Contaldo",    
-     "chefImage": "https://www.linkpicture.com/q/download_325.jpg",    
-     "yearsOfExperience": 50,    
-     "numberOfRecipes": 300,    
-     "likes": 15000,    
-     "viewRecipesButton": "View Gennaro's Recipes",
-    "description": "Gennaro Contaldo: Gennaro Contaldo is an Italian chef who has worked in some of London's top restaurants, including Passione and Zafferano. He is also known for his appearances on Jamie Oliver's cooking shows and his own TV series"  },
-        
-        
-   {      "id": "2",
-     "chefName": "Giada De Laurentiis",    
-        "chefImage": "https://www.linkpicture.com/q/Giada_De_Laurentiis_2010.jpg",    
-        "yearsOfExperience": 25,    
-        "numberOfRecipes": 200,    
-        "likes": 10000,    
-        "viewRecipesButton": "View Giada's Recipes",
-        "description":"Giada De Laurentiis is an Italian-American chef, author, and television personality. She was born on August 22, 1970, in Rome, Italy, to a family deeply rooted in the Italian film industry. Her grandfather, Dino De Laurentiis, was a renowned film producer, and her father, Alex De Benedetti, was a producer and actor." },
+[  {
+    "id": "1",
+    "chefName": "Gennaro Contaldo",
+    "chefImage": "https://www.linkpicture.com/q/2053033.webp",
+    "yearsOfExperience": 50,
+    "numberOfRecipes": 300,
+    "likes": "15k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Gennaro Contaldo: Gennaro Contaldo is an Italian chef who has worked in some of London's top restaurants, including Passione and Zafferano. He is also known for his appearances on Jamie Oliver's cooking shows and his own TV series",
+    "shortDescription": "A classic Italian pasta dish with creamy Pecorino Romano sauce.Experience the classic flavors of Italy with this delicious Margherita pizza.Indulge in the heavenly flavors of this classic Italian dessert, Tiramisu.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Pasta Carbonara",
+        "recipeImage": "https://www.linkpicture.com/q/images-1_21.jpg",
+        "ingredients": [
+          "200g spaghetti",
+          "100g pancetta or guanciale, diced",
+          "3 large eggs",
+          "50g Pecorino Romano cheese, grated",
+          "Salt and black pepper to taste"
+        ],
+        "cookingMethod": "1. Cook the spaghetti in boiling salted water until al dente. Reserve some pasta water before draining.",
+        "rating": 4.8,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Pasta Carbonara is a true Italian classic, and it holds a special place in my heart. The creamy Pecorino Romano sauce combined with perfectly cooked spaghetti creates a rich and comforting dish. It's a taste of Italy that I love to share."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Margherita Pizza",
+        "recipeImage": "https://www.linkpicture.com/q/20220211142347-margherita-9920_ba86be55-674e-4f35-8094-2067ab41a671.webp",
+        "ingredients": [
+          "250g pizza dough",
+          "150g canned crushed tomatoes",
+          "125g mozzarella cheese, sliced",
+          "Fresh basil leaves",
+          "Extra-virgin olive oil"
+        ],
+        "cookingMethod": "1. Preheat your oven to its highest setting. Roll out the pizza dough on a floured surface.",
+        "rating": 4.6,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Margherita Pizza is a symbol of simplicity and elegance in Italian cuisine. I've put my own spin on this classic, featuring fresh mozzarella, aromatic basil, and a perfectly crisp pizza crust. It's a timeless favorite that never goes out of style."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Tiramisu",
+        "recipeImage": "https://www.linkpicture.com/q/42520.jpg.webp",
+        "ingredients": [
+          "250g mascarpone cheese",
+          "3 large eggs",
+          "100g sugar",
+          "200ml strong brewed coffee",
+          "Ladyfingers"
+        ],
+        "cookingMethod": "1. Separate egg yolks and whites. Beat egg yolks with sugar until creamy. Add mascarpone and mix until smooth.",
+        "rating": 4.9,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Tiramisu is a dessert that embodies the essence of Italian indulgence. I've crafted this classic with layers of coffee-soaked ladyfingers and creamy mascarpone cheese. It's a heavenly dessert that's sure to satisfy your sweet cravings."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "chefName": "Giada De Laurentiis",
+    "chefImage": "https://www.linkpicture.com/q/delaurentiis_giada.jpg",
+    "yearsOfExperience": 25,
+    "numberOfRecipes": 200,
+    "likes": "10k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Giada De Laurentiis is an Italian-American chef, author, and television personality. She was born on August 22, 1970, in Rome, Italy, to a family deeply rooted in the Italian film industry. Her grandfather, Dino De Laurentiis, was a renowned film producer, and her father, Alex De Benedetti, was a producer and actor.",
+    "shortDescription": "A zesty twist on classic spaghetti, with the bright flavors of lemon and Parmesan cheese. A simple and elegant salad featuring ripe tomatoes, fresh mozzarella, and basil, drizzled with balsamic glaze. Irresistible cupcakes inspired by the classic Italian dessert, Tiramisu, with a delightful coffee-infused twist.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Lemon Spaghetti",
+        "recipeImage": "https://www.linkpicture.com/q/download_269.jpg",
+        "ingredients": [
+          "400g spaghetti",
+          "3 lemons, zested and juiced",
+          "100g Parmesan cheese, grated",
+          "60ml extra-virgin olive oil",
+          "Fresh basil leaves"
+        ],
+        "cookingMethod": "1. Cook the spaghetti in boiling salted water until al dente. Reserve some pasta water before draining.",
+        "rating": 4.7,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Lemon Spaghetti is a delightful twist on a classic pasta dish. I love how the zesty flavors of lemon zest and juice brighten up the dish. It's a simple yet satisfying recipe that's perfect for a quick and refreshing meal."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Caprese Salad",
+        "recipeImage": "https://www.linkpicture.com/q/recipehd0515-diy-mozzarella-2ecd74b33c444aa3ad02183e845b3b8a.jpg",
+        "ingredients": [
+          "4 ripe tomatoes, sliced",
+          "200g fresh mozzarella, sliced",
+          "Fresh basil leaves",
+          "Balsamic glaze",
+          "Salt and black pepper to taste"
+        ],
+        "cookingMethod": "1. Arrange tomato and mozzarella slices on a plate. Tuck basil leaves between the slices.",
+        "rating": 4.5,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Caprese Salad is a timeless Italian classic that I adore. The combination of ripe tomatoes, fresh mozzarella, and fragrant basil leaves drizzled with balsamic glaze is pure perfection. It's a taste of Italy in every bite."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Tiramisu Cupcakes",
+        "recipeImage": "https://www.linkpicture.com/q/tiramisu_cupcakes-aa9646a4318aaf8f7421076100722220.jpeg",
+        "ingredients": [
+          "1 cup all-purpose flour",
+          "1 tsp baking powder",
+          "1/4 tsp salt",
+          "2 large eggs",
+          "1/2 cup granulated sugar"
+        ],
+        "cookingMethod": "1. Preheat oven to 350°F. Line a cupcake tin with liners.",
+        "rating": 4.6,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Tiramisu Cupcakes are a playful take on the beloved Italian dessert, Tiramisu. These cupcakes are a delightful treat, with a hint of coffee and the creamy goodness of mascarpone. They're a sweet indulgence you won't be able to resist."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "chefName": "Antonio Carluccio",
+    "chefImage": "https://www.linkpicture.com/q/images_148.jpg",
+    "yearsOfExperience": 45,
+    "numberOfRecipes": 250,
+    "likes": "125k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Antonio Carluccio was an Italian chef, restaurateur, and television personality, known as the He was born on April 19, 1937, in Salerno, Italy, and grew up in the northwestern region of Piedmont.",
+    "shortDescription": "A rustic pasta dish featuring fresh porcini mushrooms, garlic, and a hint of white wine for an earthy and satisfying Italian experience.Creamy saffron-infused Arborio rice, cooked to perfection with sautéed onions, butter, and Parmesan cheese, offering a taste of Milan's culinary elegance.An indulgent dessert from Capri, Torta Caprese is a flourless chocolate almond cake that showcases the intense flavors of dark chocolate and nuts, creating a delightful Italian treat.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Pasta with Porcini Mushrooms",
+        "recipeImage": "https://www.linkpicture.com/q/Porcini_Mushrooms_with_Cream_and_Parmesan_8c3a24d0-c310-41b0-ac2d-39f59d463aab_720x.webp",
+        "ingredients": [
+          "300g pasta (penne or tagliatelle)",
+          "200g fresh porcini mushrooms, sliced",
+          "2 cloves garlic, minced",
+          "50ml white wine",
+          "Fresh parsley, chopped"
+        ],
+        "cookingMethod": "1. Cook the pasta in boiling salted water until al dente. Reserve some pasta water before draining.",
+        "rating": 4.8,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Pasta with Porcini Mushrooms is a dish close to my heart. The earthy aroma and flavors of fresh porcini mushrooms, combined with garlic and a touch of white wine, create a rustic and satisfying pasta experience. It's a celebration of the simple yet delicious ingredients found in Italian cuisine."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Risotto alla Milanese",
+        "recipeImage": "https://www.linkpicture.com/q/Risotto-saffron.jpg",
+        "ingredients": [
+          "300g Arborio rice",
+          "1 small onion, finely chopped",
+          "750ml chicken or vegetable broth",
+          "A pinch of saffron threads",
+          "50g unsalted butter",
+          "50g grated Parmesan cheese"
+        ],
+        "cookingMethod": "1. In a small cup, dissolve the saffron in a bit of warm broth. In a large pan, sauté the onion in butter until translucent.",
+        "rating": 4.7,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Risotto alla Milanese is a beloved Italian classic with a touch of elegance. The saffron-infused rice, cooked to creamy perfection with chicken or vegetable broth, is a testament to the rich culinary traditions of Milan. Each bite is a taste of sophistication and comfort."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Torta Caprese",
+        "recipeImage": "https://www.linkpicture.com/q/734e3ea7-115f-48ff-98b0-99b063cb262d.jpg",
+        "ingredients": [
+          "200g almond flour",
+          "200g dark chocolate, melted",
+          "200g granulated sugar",
+          "200g unsalted butter",
+          "4 large eggs"
+        ],
+        "cookingMethod": "1. Preheat oven to 180°C. Grease a round cake tin and dust with cocoa powder.",
+        "rating": 4.6,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Torta Caprese is a delightful dessert that hails from the beautiful island of Capri. This flourless chocolate almond cake, with its intense dark chocolate and nutty flavor, is a true indulgence. It's a sweet treat that embodies the simplicity and charm of Italian sweets."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "chefName": "Mario Batali",
+    "chefImage": "https://www.linkpicture.com/q/78f52e6853caaeb9f1a382c7fbe383b8_1.jpg",
+    "yearsOfExperience": 30,
+    "numberOfRecipes": 180,
+    "likes": "9k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Mario Batali is an American chef, restaurateur, and media personality. He was born on September 19, 1960, in Seattle, Washington, and grew up in a family with a passion for food and cooking. He later attended Le Cordon Bleu in London and graduated with a degree in culinary arts.",
+    "shortDescription": "A hearty classic, Spaghetti Bolognese features perfectly cooked pasta topped with a rich and savory ground beef and tomato sauce, garnished with fresh basil and Parmesan cheese.Eggplant Parmigiana is a comforting Italian dish with layers of thinly sliced eggplant, tomato sauce, melted mozzarella, and Parmesan cheese, baked to perfection. Cannoli, a beloved Italian dessert, features crispy cannoli shells filled with a creamy ricotta mixture, powdered sugar, chopped pistachios, and grated dark chocolate.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Spaghetti Bolognese",
+        "recipeImage": "https://www.linkpicture.com/q/images_149.jpg",
+        "ingredients": [
+          "300g spaghetti",
+          "400g ground beef",
+          "1 onion, finely chopped",
+          "2 cloves garlic, minced",
+          "400g canned chopped tomatoes",
+          "Fresh basil leaves",
+          "Grated Parmesan cheese"
+        ],
+        "cookingMethod": "1. Cook the spaghetti in boiling salted water until al dente. Reserve some pasta water before draining.",
+        "rating": 4.8,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Spaghetti Bolognese is a beloved classic that I've come to adore over the years. The combination of perfectly cooked spaghetti and a rich, savory beef and tomato sauce is a true comfort food. It's a dish that captures the essence of Italian home cooking."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Eggplant Parmigiana",
+        "recipeImage": "https://www.linkpicture.com/q/download_272.jpg",
+        "ingredients": [
+          "2 large eggplants, sliced",
+          "500g tomato sauce",
+          "250g mozzarella cheese, sliced",
+          "100g grated Parmesan cheese",
+          "Fresh basil leaves",
+          "Breadcrumbs"
+        ],
+        "cookingMethod": "1. Preheat oven to 180°C. Grease a baking dish and layer eggplant slices.",
+        "rating": 4.7,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Eggplant Parmigiana is a heartwarming dish that brings back memories of family gatherings and shared meals. The layers of tender eggplant, tomato sauce, melted mozzarella, and Parmesan create a comforting and satisfying experience."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Cannoli",
+        "recipeImage": "https://www.linkpicture.com/q/delish-190807-cannolis-0214-landscape-pf-1565647073.jpg",
+        "ingredients": [
+          "250g ricotta cheese",
+          "50g powdered sugar",
+          "1 tsp vanilla extract",
+          "50g chopped pistachios",
+          "50g dark chocolate, grated",
+          "Cannoli shells"
+        ],
+        "cookingMethod": "1. In a bowl, mix ricotta cheese, powdered sugar, and vanilla extract until smooth. Stir in chopped pistachios and grated chocolate.",
+        "rating": 4.6,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Cannoli is a sweet treat that holds a special place in my heart. The crispy cannoli shells filled with a creamy ricotta mixture, sweet powdered sugar, chopped pistachios, and grated dark chocolate are a delightful and indulgent dessert, perfect for celebrating life's little pleasures."
+      }
+    ]
+  },
 
-{     "id": "3",
-      "chefName": "Antonio Carluccio",    
-     "chefImage": "https://www.linkpicture.com/q/download_548.jpg",    "yearsOfExperience": 45,    "numberOfRecipes": 250,    
-     "likes": 12500,    
-     "viewRecipesButton": "View Antonio's Recipes",
-     "description": "Antonio Carluccio was an Italian chef, restaurateur, and television personality, known as the He was born on April 19, 1937, in Salerno, Italy, and grew up in the northwestern region of Piedmont." }, 
-
-{     "id":" 4",
-      "chefName": "Mario Batali",    
-    "chefImage": "https://www.linkpicture.com/q/download-1_166.jpg",    
-    "yearsOfExperience": 30,    
-    "numberOfRecipes": 180,    
-    "likes": 9000,    
-    "viewRecipesButton": "View Mario's Recipes",
-    "description":"  Mario Batali is an American chef, restaurateur, and media personality. He was born on September 19, 1960, in Seattle, Washington, and grew up in a family with a passion for food and cooking. He later attended Le Cordon Bleu in London and graduated with a degree in culinary arts"
-   
-},
-
-{     "id": "5",
-     "chefName": "Lidia Bastianich",    
-     "chefImage": "https://www.linkpicture.com/q/channels4_profile_2.jpg",    "yearsOfExperience": 35,    "numberOfRecipes": 220,    
-     "likes": 11000,    
-     "viewRecipesButton": "View Lidia's Recipes",
-    "description":"Lidia Bastianich: Lidia Bastianich is an Italian-American chef and TV personality. She is the owner of several successful restaurants, including Felidia and Becco in New York City, and has authored numerous cookbooks. She is also known for her PBS series." }, 
-
-{    "id": "6",
-     "chefName": "Massimo Bottura",    
-     "chefImage": "https://www.linkpicture.com/q/massimo_0.jpeg",    
-     "yearsOfExperience": 25,    
-     "numberOfRecipes": 150,    
-     "likes": 7500,    
-     "viewRecipesButton": "View Massimo's Recipes",
-     "description": "Massimo Bottura: Massimo Bottura is an Italian restaurateur and chef who is widely considered one of the world's greatest living chefs. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy."  }]
+ {
+    "id": "5",
+    "chefName": "Lidia Bastianich",
+    "chefImage": "https://www.linkpicture.com/q/a2a76e14dcfb127728b485d29aaaca2f.jpg",
+    "yearsOfExperience": 35,
+    "numberOfRecipes": 220,
+    "likes": "11k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Lidia Bastianich: Lidia Bastianich is an Italian-American chef and TV personality. She is the owner of several successful restaurants, including Felidia and Becco in New York City, and has authored numerous cookbooks. She is also known for her PBS series.",
+    "shortDescription": "A classic Italian dish featuring tender, breaded chicken breasts, sautéed to perfection, and topped with a zesty lemon-caper sauce for a burst of flavor.A creamy Arborio rice dish cooked with a blend of mixed vegetables, white wine, and Parmesan cheese, offering a delightful and comforting taste of Italy.An indulgent dessert that combines the creamy richness of cheesecake with the flavors of tiramisu, featuring layers of mascarpone, coffee-soaked ladyfingers, and a cocoa powder finish.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Chicken Piccata",
+        "recipeImage": "https://www.linkpicture.com/q/download-1_106.jpg",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "1/2 cup all-purpose flour",
+          "1/2 cup chicken broth",
+          "1/4 cup fresh lemon juice",
+          "2 tablespoons capers",
+          "2 tablespoons butter",
+          "Fresh parsley, chopped"
+        ],
+        "cookingMethod": "1. Season the chicken breasts with salt and pepper. Dredge in flour and shake off excess.",
+        "rating": 4.7,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Chicken Piccata is a delightful dish that combines the flavors of tender chicken breasts, tangy lemon juice, briny capers, and a buttery sauce. It's a classic Italian favorite that brings a burst of brightness to the dinner table."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Vegetable Risotto",
+        "recipeImage": "https://www.linkpicture.com/q/italian-vegetable-risotto-63668-1.jpeg",
+        "ingredients": [
+          "1 cup Arborio rice",
+          "1/2 cup dry white wine",
+          "1 small onion, finely chopped",
+          "2 cups vegetable broth",
+          "1 cup mixed vegetables (peas, carrots, zucchini)",
+          "1/4 cup grated Parmesan cheese",
+          "2 tablespoons olive oil"
+        ],
+        "cookingMethod": "1. In a saucepan, heat the olive oil over medium heat. Add the chopped onion and sauté until translucent.",
+        "rating": 4.6,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Vegetable Risotto is a comforting and creamy dish that celebrates the simplicity of Arborio rice paired with a medley of fresh vegetables. It's a versatile and satisfying choice for any meal."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Tiramisu Cheesecake",
+        "recipeImage": "https://www.linkpicture.com/q/images-1_24.jpg",
+        "ingredients": [
+          "250g cream cheese",
+          "1/2 cup granulated sugar",
+          "2 large eggs",
+          "1 cup mascarpone cheese",
+          "1 cup strong brewed coffee",
+          "Ladyfingers",
+          "Cocoa powder for dusting"
+        ],
+        "cookingMethod": "1. Preheat oven to 160°C. In a mixing bowl, beat cream cheese and sugar until smooth.",
+        "rating": 4.9,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Tiramisu Cheesecake is a fusion of two beloved Italian desserts. Creamy mascarpone cheese, coffee-soaked ladyfingers, and a dusting of cocoa powder come together to create a decadent and irresistible treat."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "chefName": "Massimo Bottura",
+    "chefImage": "https://www.linkpicture.com/q/courtesy_of_alessandro_moggi_jpg_5785.webp",
+    "yearsOfExperience": 25,
+    "numberOfRecipes": 150,
+    "likes": "7.5k",
+    "viewRecipesButton": "View Recipes",
+    "description": "Massimo Bottura: Massimo Bottura is an Italian restaurateur and chef who is widely considered one of the world's greatest living chefs. He is the owner of Osteria Francescana, a three-Michelin-star restaurant in Modena, Italy.",
+    "shortDescription": "A delightful dish featuring Parmigiano Reggiano cheese prepared in five unique ways, including balsamic vinegar, honey, chopped walnuts, aged balsamic vinegar, and apricot jam, creating a symphony of flavors.Creamy Arborio rice cooked with a blend of pumpkin puree, onions, and white wine, resulting in a comforting and flavorful risotto, topped with grated Parmesan cheese. A luscious dessert featuring individual chocolate fondants with a warm, oozing center, served with a scoop of vanilla ice cream and garnished with fresh raspberries.",
+    "recipes": [
+      { 
+        "id": "1",
+        "recipeName": "Parmigiano Reggiano Five Ways",
+        "recipeImage": "https://www.linkpicture.com/q/how-parmesan-is-made-1080x675.jpg",
+        "ingredients": [
+          "200g Parmigiano Reggiano cheese",
+          "1 tablespoon balsamic vinegar",
+          "1 tablespoon honey",
+          "1 tablespoon chopped walnuts",
+          "1 tablespoon aged balsamic vinegar",
+          "1 tablespoon apricot jam",
+          "Fresh basil leaves"
+        ],
+        "cookingMethod": "1. Cut the Parmigiano Reggiano cheese into 5 equal pieces. Arrange on a plate.",
+        "rating": 4.8,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Parmigiano Reggiano Five Ways is a creative exploration of the rich and nutty flavors of this iconic Italian cheese. It's a tribute to the versatility of Parmigiano Reggiano and a play on textures and tastes."
+      },
+      { 
+        "id": "2",
+        "recipeName": "Pumpkin Risotto",
+        "recipeImage": "https://www.linkpicture.com/q/download-2_55.jpg",
+        "ingredients": [
+          "1 cup Arborio rice",
+          "1/2 cup dry white wine",
+          "1 small onion, finely chopped",
+          "2 cups vegetable broth",
+          "200g pumpkin puree",
+          "50g grated Parmesan cheese",
+          "2 tablespoons butter"
+        ],
+        "cookingMethod": "1. In a saucepan, heat the butter over medium heat. Add the chopped onion and sauté until translucent.",
+        "rating": 4.7,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Pumpkin Risotto is a celebration of seasonal ingredients and the warmth of Italian cuisine. The creamy Arborio rice, blended with velvety pumpkin puree and finished with Parmesan cheese, is comfort in a bowl."
+      },
+      { 
+        "id": "3",
+        "recipeName": "Warm Chocolate Fondant",
+        "recipeImage": "https://www.linkpicture.com/q/Chocolate-Fondant-Cakes-for-two-Feature.jpg",
+        "ingredients": [
+          "100g dark chocolate",
+          "100g unsalted butter",
+          "3 large eggs",
+          "1/2 cup granulated sugar",
+          "1/4 cup all-purpose flour",
+          "Vanilla ice cream",
+          "Fresh raspberries"
+        ],
+        "cookingMethod": "1. Preheat oven to 180°C. Grease 4 ramekins and dust with cocoa powder.",
+        "rating": 4.9,
+        "favoriteButton": "Add to Favorites",
+        "chefWords": "Warm Chocolate Fondant is a decadent dessert experience that balances the richness of dark chocolate with a molten, gooey center. It's a sweet finale that brings a smile to every chocolate lover's face."
+      }
+    ]
+  }
+]
 
 
